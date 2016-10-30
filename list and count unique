@@ -1,0 +1,7 @@
+# list and count unique lines 
+#bash species.sh [file]
+#data 10/23/2016
+
+cut -d, -f 2 "$1" | sort | uniq -c
+echo "I am done count unique lines"
+
